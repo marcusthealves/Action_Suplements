@@ -132,18 +132,16 @@ body {
     .nav_list {
        display: none;/*ficar um abaixo do outro*/
        position: absolute;
-       width: 80vh;
+       width:110vh;
        top: 55px;
-       right: -20px;
+       right: 0px;
        background-color: black;
-       height: calc(100vh - 55px);/*diminuir do nav pra n rolar*/
+       height: calc(125vh - 55px);/*diminuir do nav pra n rolar*/
        z-index: 1000;/*pro nav ficar acima de todos*/
-       text-align: center;
-       
-    }
+        text-align: center;    }
 
     .nav_list .nav_link{
-        padding: 60px;
+        padding: 40px;
         
     }
 
@@ -183,8 +181,11 @@ body {
     }
 
     .contato-links{
-        flex-direction: column;
         gap: 2px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .contato-bg h1 {
@@ -293,11 +294,11 @@ img{
 
 .produto h2,p,button{
     padding: 10px 30px;
-    text-align: justify;
+    text-align: center;
 }
 
 .produto p{
-    font-size: 1.25em;
+    font-size: 1.12em;
     line-height: 1.5em;
 }
 
@@ -319,7 +320,7 @@ img{
 .produto a{
     color: white;
 }
-
+  
 .produto .creatina button{
     background-color: red;
 }
@@ -333,7 +334,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/img-sobre\ \(2\).jpg) center/cover no-repeat var(--color-white);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/sobre-img.jpg) center/cover no-repeat var(--color-white);
 }
 
 .sobre-info {
