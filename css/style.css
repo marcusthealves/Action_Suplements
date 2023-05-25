@@ -134,7 +134,7 @@ body {
        position: absolute;
        width:100vh;
        top: 55px;
-       right: -110px;
+       right: -140px;
        background-color: black;
        height: calc(100vh - 55px);/*diminuir do nav pra n rolar*/
        z-index: 1000;/*pro nav ficar acima de todos*/
