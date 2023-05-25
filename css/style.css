@@ -171,10 +171,15 @@ body {
         font-size: 2em;
         text-align: center;
     }
+
     .produto h2,p,h3 {
     font-size: 1.5em;
     text-align: center;
         }
+
+    .produto h1 {
+        margin-top: 35px;
+    }
 
     .produtos{
         flex-direction: column;
