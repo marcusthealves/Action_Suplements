@@ -132,11 +132,11 @@ body {
     .nav_list {
        display: none;/*ficar um abaixo do outro*/
        position: absolute;
-       width:90vh;
+       width:100vh;
        top: 55px;
        right: -110px;
        background-color: black;
-       height: calc(90vh - 55px);/*diminuir do nav pra n rolar*/
+       height: calc(100vh - 55px);/*diminuir do nav pra n rolar*/
        z-index: 1000;/*pro nav ficar acima de todos*/
         text-align: center;    }
 
