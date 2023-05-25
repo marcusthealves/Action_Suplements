@@ -132,17 +132,17 @@ body {
     .nav_list {
        display: none;/*ficar um abaixo do outro*/
        position: absolute;
-       width:100vh;
+       width:95vh;
        top: 55px;
-       right: -140px;
+       right: -100px;
        background-color: black;
-       height: calc(100vh - 55px);/*diminuir do nav pra n rolar*/
+       height: calc(95vh - 55px);/*diminuir do nav pra n rolar*/
        z-index: 1000;/*pro nav ficar acima de todos*/
-        text-align: center;    }
+       text-align: center;
+       }
 
     .nav_list .nav_link{
-        padding: 40px;
-        
+        padding: 40px;        
     }
 
     #nav.active .nav_list{
