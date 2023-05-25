@@ -134,7 +134,7 @@ body {
        position: absolute;
        width:110vh;
        top: 55px;
-       right: 0px;
+       right: -110px;
        background-color: black;
        height: calc(125vh - 55px);/*diminuir do nav pra n rolar*/
        z-index: 1000;/*pro nav ficar acima de todos*/
@@ -334,7 +334,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/img-sobre\ \(2\).jpg) center/cover no-repeat var(--color-white);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img-sobre\ \(2\).jpg) center/cover no-repeat var(--color-white);
 }
 
 .sobre-info {
