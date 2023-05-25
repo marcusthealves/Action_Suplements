@@ -221,7 +221,7 @@ body {
 /*inicio */
 
 .inicio {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/img-inicio.avif) center/cover no-repeat var(--color-white);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img-inicio.avif) center/cover no-repeat var(--color-white);
     max-width: 960px;
     margin: 10px auto 60px;
     padding: 80px 0px;
@@ -334,7 +334,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/creatina-max.jpg) center/cover no-repeat var(--color-white);
+    background: url(../img/img-sobre\ \(2\).jpg) center/cover no-repeat var(--color-white);
 }
 
 .sobre-info {
