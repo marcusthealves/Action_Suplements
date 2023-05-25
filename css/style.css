@@ -334,7 +334,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img-sobre\ \(2\)-min.jpg \(2\).jpg) center/cover no-repeat var(--color-white);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img-sobre\ \(2\)-min.jpg) center/cover no-repeat var(--color-white);
 }
 
 .sobre-info {
