@@ -130,15 +130,14 @@ body {
     }
 
     .nav_list {
-       display: none;/*ficar um abaixo do outro*/
-       position: absolute;
-       width:95vh;
-       top: 55px;
-       right: -20px;
-       background-color: black;
-       height: calc(95vh - 55px);/*diminuir do nav pra n rolar*/
-       z-index: 1000;/*pro nav ficar acima de todos*/
-       text-align: center;
+        position: absolute;
+        width:110vh;
+        top: 55px;
+        right: 0px;
+        right: -110px;
+        background-color: black;
+        height: calc(125vh - 55px);/*diminuir do nav pra n rolar*/
+        z-index: 1000;/*pro nav ficar acima de todos*/
        }
       
 
